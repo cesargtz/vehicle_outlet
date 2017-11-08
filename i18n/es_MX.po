@@ -1,0 +1,95 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* vehicle_outlet
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-23 16:53+0000\n"
+"PO-Revision-Date: 2016-09-23 16:53+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: vehicle_outlet
+#: field:vehicle.outlet,contract_id:0
+msgid "Contract id"
+msgstr "Contrato"
+
+#. module: vehicle_outlet
+#: field:vehicle.outlet,contract_type:0
+msgid "Contract type"
+msgstr "Tipo de contrato"
+
+#. module: vehicle_outlet
+#: field:vehicle.outlet,partner_id:0
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: vehicle_outlet
+#: field:vehicle.outlet,delivered:0
+msgid "Delivered"
+msgstr "Entregado"
+
+#. module: vehicle_outlet
+#: field:vehicle.outlet,display_name:0
+msgid "Display Name"
+msgstr ""
+
+#. module: vehicle_outlet
+#: help:vehicle.outlet,contract_state:0
+msgid "Gives the status of the quotation or sales order.              \n"
+"The exception status is automatically set when a cancel operation occurs               in the invoice validation (Invoice Exception) or in the picking list process (Shipping Exception).\n"
+"The 'Waiting Schedule' status is set when the invoice is confirmed               but waiting for the scheduler to run on the order date."
+msgstr ""
+"The exception status is automatically set when a cancel operation occurs               in the invoice validation (Invoice Exception) or in the picking list process (Shipping Exception).\n"
+"The 'Waiting Schedule' status is set when the invoice is confirmed               but waiting for the scheduler to run on the order date."
+
+#. module: vehicle_outlet
+#: field:vehicle.outlet,hired:0
+msgid "Hired"
+msgstr "Contratado"
+
+#. module: vehicle_outlet
+#: field:vehicle.outlet,id:0
+msgid "ID"
+msgstr ""
+
+#. module: vehicle_outlet
+#: field:vehicle.outlet,location_id:0
+msgid "Input Location"
+msgstr "Ubicaion de entrada"
+
+#. module: vehicle_outlet
+#: field:vehicle.outlet,__last_update:0
+msgid "Last Modified on"
+msgstr ""
+
+#. module: vehicle_outlet
+#: model:ir.ui.menu,name:vehicle_outlet.menu_outlets
+msgid "Outlets"
+msgstr "Salidas"
+
+#. module: vehicle_outlet
+#: field:vehicle.outlet,pending:0
+msgid "Pending"
+msgstr "Pendiente"
+
+#. module: vehicle_outlet
+#: field:vehicle.outlet,product_id:0
+msgid "Product id"
+msgstr "Producto"
+
+#. module: vehicle_outlet
+#: field:vehicle.outlet,contract_state:0
+msgid "Status"
+msgstr "Estado"
+
+#. module: vehicle_outlet
+#: field:vehicle.outlet,street:0
+msgid "Street"
+msgstr "Domicilio"
