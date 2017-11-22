@@ -13,6 +13,7 @@ class VehicleOutlet(models.AbstractModel):
     street = fields.Char('Dirección', readonly=True, related='partner_id.street')
     contract_state = fields.Selection('Estado de Contrato', readonly=True, related="contract_id.state")
     active = fields.Boolean(default=True, string="Activo")
+    date = fields.Date(required=True, default=fields.Date.today)
 
     hired = fields.Float('Contratado', compute="_compute_hired", readonly=True, store=False)
     delivered = fields.Float('Entregado', compute="_compute_delivered", readonly=True, store=False)
